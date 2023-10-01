@@ -17,14 +17,14 @@ struct LeftMenuView: View {
                 MenuButton(image: tab.icon, description: tab.description)
             }
         }
-        .frame(width: 275)
+        .frame(width: 210)
         .frame(maxHeight: .infinity, alignment: .top)
         .padding(10)
         .background(
             ZStack {
-                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.darkBlue]), startPoint: .leading, endPoint: .trailing)
+                Color.soloGuitar1
                     .padding(.trailing, 30)
-                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.darkBlue]), startPoint: .leading, endPoint: .trailing)
+                Color.soloGuitar1
                     .cornerRadius(10)
                     .shadow(color: Color.black.opacity(0.1), radius: 5, x: 5, y: 0)
             }

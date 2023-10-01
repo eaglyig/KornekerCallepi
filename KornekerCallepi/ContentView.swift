@@ -33,7 +33,7 @@ struct ContentView: View {
             }
             .frame(width: geometry.size.width, height: geometry.size.height)
             .background(
-                LinearGradient(gradient: Gradient(colors: [Color.lightBlue, Color.darkBlue]), startPoint: .leading, endPoint: .trailing)
+                Color.soloGuitar2
             )
         }
     }
